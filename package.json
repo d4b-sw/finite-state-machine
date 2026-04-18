@@ -5,13 +5,20 @@
   "type": "module",
   "scripts": {
     "build": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
     "test": "vitest run",
     "test:watch": "vitest",
     "example:order": "tsx examples/orderMachine.ts",
     "example:traffic": "tsx examples/trafficLightMachine.ts"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^24.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.58.2",
+    "@typescript-eslint/parser": "^8.58.2",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
     "tsx": "^4.20.5",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"

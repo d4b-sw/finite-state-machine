@@ -23,6 +23,12 @@ npm install
 npm test
 ```
 
+## Run linting
+
+```bash
+npm run lint
+```
+
 ## Run examples
 
 ```bash
