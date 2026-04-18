@@ -11,6 +11,8 @@ Generic finite state machine implementation with:
 - test coverage with `vitest`
 - runnable examples with `tsx`
 
+An article that drove writing this code can be found on [d4b, why state machines?](https://www.d4b.dev/blog/2026-01-04-state-machines-advantages-disadvantages/)
+
 ## Install
 
 ```bash
@@ -224,3 +226,4 @@ is explicit and centralized.
 - Use `onTransition` for behavior that belongs to one specific edge.
 - Use `updateContext(...)` when you want predictable, explicit context changes.
 - Mutate `context` inside hooks only when shared object mutation is intentional.
+
