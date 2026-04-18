@@ -1,4 +1,4 @@
-# TypeScript State Machine
+# 🚥 TypeScript State Machine
 
 [![CI](https://github.com/d4b-sw/finite-state-machine/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/d4b-sw/finite-state-machine/actions/workflows/test.yml)
 
